@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/list_Name"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fontFamily="casual"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="15dp" />-->
+    <ImageView
+        android:id="@+id/siswa_foto_guru_cek_nilai_siswa_tab1_smt2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:id="@+id/siswa_nama_mapel_cek_nilai_siswa_tab1_smt2"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tesss"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/siswa_foto_guru_cek_nilai_siswa_tab1_smt2"/>
+
+    <TextView
+        android:id="@+id/siswa_nama_guru_cek_nilai_siswa_tab1_smt2"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Drs. Susanto bin Mar'un"
+        android:textSize="11dp"
+        android:layout_toRightOf="@+id/siswa_foto_guru_cek_nilai_siswa_tab1_smt2"
+        android:layout_below="@+id/siswa_nama_mapel_cek_nilai_siswa_tab1_smt2"/>
+
+    <TextView
+        android:id="@+id/siswa_nilai_siswa_cek_nilai_siswa_tab1_smt2"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="80"
+        android:textSize="17dp"
+        android:gravity="right"
+        android:padding="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imageView1"/>
+
+</RelativeLayout>
